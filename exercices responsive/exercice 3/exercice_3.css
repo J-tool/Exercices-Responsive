@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+
+
+	
+}
+
+.page {
+	position: fixed;
+    width: 100%;
+    height: 100%;
+  
+}
+
+
+.section_menu {
+	background-color: blue;
+	height: 3%;
+	
+}
+.section_header {
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15%;
+	
+}
+.section_content {
+	background-color: lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30%;
+	
+}
+.section_sign-up {
+	background-color: #6666ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 13%;
+	
+}	
+.section_feature-1 {
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 13%;
+	
+}
+.section_feature-2 {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 13%;
+	
+}
+.section_feature-3 {
+	background-color: purple;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 13%;
+	
+}
+
+@media screen and (min-width: 401px) and (max-width: 960px) {
+	.section_sign-up { 
+		display: inline-flex;
+		width: 50%;
+		height: 26%;
+	  }
+	.section_feature-1 {
+		display: inline-flex;
+		width: 50%;
+		height: 26%;
+	}
+	.section_feature-2 {
+		display: inline-flex;
+		width: 50%;
+		height: 26%;
+	}
+	.section_feature-3 {
+		display: inline-flex;
+		width: 50%;
+		height: 26%;
+	}
+ }
+
+ @media screen and (min-width: 961px) {
+ 	
+	.section_feature-1 {
+		display: inline-flex;
+		width: 33.3333333333333%;
+		height: 39%;
+	}
+	.section_feature-2 {
+		display: inline-flex;
+		width: 33.3333333333333%;
+		height: 39%;
+	}
+	.section_feature-3 {
+		display: inline-flex;
+		width: 33.3333333333333%;
+		height: 39%;
+	}
+ }

@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+
+
+	
+}
+
+.page {
+	
+	display: flex;
+	flex-direction: column; 
+	height: 969px;
+	
+  
+}
+
+
+.menu {
+	background-color: blue;
+	height: 3%;
+	
+}
+.header {
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15%;
+	
+}
+.content {
+	background-color: lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30%;
+
+}
+.sign-up {
+	background-color: #6666ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 13%;
+	
+}	
+.feature-1 {
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 13%;
+	
+}
+.feature-2 {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 13%;
+	
+	
+}
+.feature-3 {
+	background-color: purple;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 13%;
+	
+	
+}
+
+@media screen and (min-width: 401px) and (max-width: 960px) {
+	 
+	.page {
+		
+		display: flex;
+		flex-flow: wrap;
+		
+	}
+	.menu {
+		width: 100%;
+	}
+	.header {
+		width: 100%;
+	}
+	.content {
+		width: 100%;
+	}
+
+	.sign-up { 
+		
+		width: 50%;
+		height: 26%;
+	  }
+
+	.feature-1 {
+		
+		width: 50%;
+		height: 26%;
+	}
+	.feature-2 {
+		
+		width: 50%;
+		height: 26%;
+	}
+	.feature-3 {
+		
+		width: 50%;
+		height: 26%;
+	}
+ }
+
+ @media screen and (min-width: 961px) {
+ 	
+	.page {
+		display: flex;
+		flex-flow: wrap;
+	}
+ 
+ 	.menu {
+		width: 100%;
+	}
+	.header {
+		width: 100%;
+	}
+	.content {
+		width: 100%;
+		order: 2;
+	}
+
+	.sign-up { 
+		
+		width: 100%;
+		height: 13%;
+		order: 1;
+	  }
+
+
+	.feature-1 {
+		
+		width: 33.3333333333333%;
+		height: 39%;
+		
+	}
+	.feature-2 {
+		
+		width: 33.3333333333333%;
+		height: 39%;
+		
+	}
+	.feature-3 {
+		
+		width: 33.3333333333333%;
+		height: 39%;
+	
+	}
+	
+ }
